@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Return Youtube Red Subscribe Button",
+  "description": "Brings back the red subscribe button.",
+  "version": "0.0.1",
+  "action": {
+    "default_popup": "/popup/popup.html",
+    "default_icon": "/images/icon128.png"
+  },
+  "icons": {
+    "45": "/images/icon45.png",
+    "64": "/images/icon64.png",
+    "128": "/images/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.youtube.com/*"
+      ],
+      "css": [
+        "/styles/my-styles.css"
+      ]
+    }
+  ]
+}
