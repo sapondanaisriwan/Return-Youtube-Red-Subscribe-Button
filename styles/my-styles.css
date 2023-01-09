@@ -3,28 +3,181 @@
     --sub-white--text-btn: #f2f2f2;
     --sub-black-bg-btn: #303030;
 }
-/* Subscribe */
-#subscribe yt-button-shape button, #subscribe-button yt-button-shape button, #subscribe yt-button-shape a[aria-label="Subscribe"], #subscribe-button yt-button-shape a[aria-label="Subscribe"] {
-    color: var(--yt-spec-static-brand-white) !important;
-    background-color: var(--yt-spec-brand-button-background) !important;
+
+/* Subscribed button */
+#subscribe yt-button-shape button,
+#subscribe-button yt-button-shape button,
+ytd-subscribe-button-renderer yt-button-shape button,
+#subscribe yt-button-shape a[aria-label="Subscribe"],
+#subscribe-button yt-button-shape a[aria-label="Subscribe"],
+ytd-subscribe-button-renderer yt-button-shape a[aria-label="Subscribe"] {
+    /* InPrivate */
+    color: var(--yt-spec-static-brand-white) i;
+    background-color: var(--yt-spec-brand-button-background) i;
 }
 
-/* Unsubscribe */
-#subscribe yt-button-shape button[aria-label^="Unsubscribe"], #subscribe-button yt-button-shape button[aria-label^="Unsubscribe"], #subscribe yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal, #subscribe-button yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal {
-    color: var(--yt-spec-text-secondary) !important;
-    background-color: var(--yt-spec-badge-chip-background) !important;
+#subscribe yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal,
+#subscribe-button yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal,
+ytd-subscribe-button-renderer yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal {
+    color: var(--yt-spec-text-secondary) i;
+    background-color: var(--yt-spec-badge-chip-background) i;
 }
 
-[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Subscribe"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="ติดตาม"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Pratite kanal"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Teken in"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label*="kanalına abunə olun"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Langgan"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Pretplatite se na kanal"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Subscriu-te al canal"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label*="se k"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Abonner på"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="abonnieren."], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Telli"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Suscribirse"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Suscribirme"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Harpidetu"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Mag-subscribe sa"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="S'abonner à"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Subscribirse"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Bhalisesla"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Prihlásiť sa na odber kanála"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Hefja áskrift að"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Iscriviti"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Fuatilia"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Abonēt kanālu"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Prenumeruoti"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Feliratkozás"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Abonneren op"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Obuna qiling"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Abonohu në"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Đăng ký"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="alına abone ol."], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Падпісацца на канал"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Абониране"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="каналына жазылыңыз."], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="арнасына жазылу"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Претплатете се на"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="захиалах."], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Оформить подписку на канал"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Пратите канал"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Підписатися на канал"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Subscrever"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Inscreva-se em"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Abonează-te la"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Prenumerera på"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Հետևել"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="הרשמה למינוי לערוץ"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="کو سبسکرائب کریں۔"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="يمكنك الاشتراك في قناة"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="مشترک شدن در"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="को सदस्यता लिनुहोस्।"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="चे सदस्यत्व घ्या."], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="के सदस्य बनें."], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="ৰ সদস্য হওক।"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="এ সাবস্ক্রাইব করুন।"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="ਨੂੰ ਸਬਸਕ੍ਰਾਈਬ ਕਰੋ।"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="પર સબ્સ્ક્રાઇબ કરો."], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="ସବ୍‍ସ୍କ୍ରାଇବ୍‍ କରିବେ।"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="சேனலில் குழுசேர்க."], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="సబ్‌స్క్రయిబ్ చేయండి."], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="ಗೆ ಸಬ್‌ಸ್ಕ್ರೈಬ್ ಮಾಡಿ."], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="എന്ന ചാനലിന്‍റെ വരിക്കാരാവുക."], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="වෙත දායක වන්න."], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="ຕິດຕາມ"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="တွင် စာရင်းသွင်းရန်။"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="გამოწერა."], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="订阅"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="訂閱"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="ይመዝገቡ።"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="をチャンネル登録"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="을(를) 구독합니다."], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Tilaa"], [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Subskrybuj kanał"] {
-    color: var(--yt-spec-static-brand-white) !important;
-    background-color: var(--yt-spec-brand-button-background) !important;
+/* Subscribed button on channels*/
+/* Please let me know if you can figure out how to make this shorter and cleaner */
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Subscribe"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Subscribe"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="ติดตาม"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="ติดตาม"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Pratite kanal"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Pratite kanal"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Teken in"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Teken in"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label*="kanalına abunə olun"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label*="kanalına abunə olun"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Langgan"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Langgan"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Pretplatite se na kanal"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Pretplatite se na kanal"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Subscriu-te al canal"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Subscriu-te al canal"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label*="se k"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label*="se k"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Abonner på"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Abonner på"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="abonnieren."],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label$="abonnieren."],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Telli"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Telli"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Suscribirse"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Suscribirse"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Suscribirme"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Suscribirme"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Harpidetu"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Harpidetu"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Mag-subscribe sa"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Mag-subscribe sa"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="S'abonner à"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="S'abonner à"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Subscribirse"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Subscribirse"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Bhalisesla"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Bhalisesla"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Prihlásiť sa na odber kanála"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Prihlásiť sa na odber kanála"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Hefja áskrift að"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Hefja áskrift að"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Iscriviti"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Iscriviti"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Fuatilia"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Fuatilia"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Abonēt kanālu"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Abonēt kanālu"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Prenumeruoti"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Prenumeruoti"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Feliratkozás"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Feliratkozás"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Abonneren op"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Abonneren op"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Obuna qiling"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Obuna qiling"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Abonohu në"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Abonohu në"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Đăng ký"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Đăng ký"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="alına abone ol."],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label$="alına abone ol."],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Падпісацца на канал"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Падпісацца на канал"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Абониране"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Абониране"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="каналына жазылыңыз."],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label$="каналына жазылыңыз."],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="арнасына жазылу"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label$="арнасына жазылу"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Претплатете се на"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Претплатете се на"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="захиалах."],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label$="захиалах."],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Оформить подписку на канал"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Оформить подписку на канал"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Пратите канал"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Пратите канал"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Підписатися на канал"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Підписатися на канал"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Subscrever"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Subscrever"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Inscreva-se em"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Inscreva-se em"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Abonează-te la"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Abonează-te la"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Prenumerera på"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Prenumerera på"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Հետևել"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Հետևել"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="הרשמה למינוי לערוץ"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="הרשמה למינוי לערוץ"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="کو سبسکرائب کریں۔"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label$="کو سبسکرائب کریں۔"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="يمكنك الاشتراك في قناة"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="يمكنك الاشتراك في قناة"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="مشترک شدن در"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="مشترک شدن در"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="को सदस्यता लिनुहोस्।"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label$="को सदस्यता लिनुहोस्।"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="चे सदस्यत्व घ्या."],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label$="चे सदस्यत्व घ्या."],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="के सदस्य बनें."],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label$="के सदस्य बनें."],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="ৰ সদস্য হওক।"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label$="ৰ সদস্য হওক।"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="এ সাবস্ক্রাইব করুন।"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label$="এ সাবস্ক্রাইব করুন।"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="ਨੂੰ ਸਬਸਕ੍ਰਾਈਬ ਕਰੋ।"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label$="ਨੂੰ ਸਬਸਕ੍ਰਾਈਬ ਕਰੋ।"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="પર સબ્સ્ક્રાઇબ કરો."],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label$="પર સબ્સ્ક્રાઇબ કરો."],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="ସବ୍‍ସ୍କ୍ରାଇବ୍‍ କରିବେ।"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label$="ସବ୍‍ସ୍କ୍ରାଇବ୍‍ କରିବେ।"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="சேனலில் குழுசேர்க."],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label$="சேனலில் குழுசேர்க."],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="సబ్‌స్క్రయిబ్ చేయండి."],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label$="సబ్‌స్క్రయిబ్ చేయండి."],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="ಗೆ ಸಬ್‌ಸ್ಕ್ರೈಬ್ ಮಾಡಿ."],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label$="ಗೆ ಸಬ್‌ಸ್ಕ್ರೈಬ್ ಮಾಡಿ."],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="എന്ന ചാനലിന്‍റെ വരിക്കാരാവുക."],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label$="എന്ന ചാനലിന്‍റെ വരിക്കാരാവുക."],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="වෙත දායක වන්න."],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label$="වෙත දායක වන්න."],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="ຕິດຕາມ"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="ຕິດຕາມ"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="တွင် စာရင်းသွင်းရန်။"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label$="တွင် စာရင်းသွင်းရန်။"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="გამოწერა."],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label$="გამოწერა."],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="订阅"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="订阅"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="訂閱"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="訂閱"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="ይመዝገቡ።"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="ይመዝገቡ።"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="をチャンネル登録"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label$="をチャンネル登録"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label$="을(를) 구독합니다."],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label$="을(를) 구독합니다."],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Tilaa"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Tilaa"],
+[page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Subskrybuj kanał"],
+#channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Subskrybuj kanał"] {
+    color: var(--yt-spec-static-brand-white) i;
+    background-color: var(--yt-spec-brand-button-background) i;
 }
 
 /* Shorts Unsubscribe button */
-html[dark] ytd-shorts #subscribe-button yt-button-shape button[aria-label^="Unsubscribe"], html[dark] ytd-shorts #subscribe-button yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal {
-    background-color: var(--sub-black-bg-btn) !important;
+html[dark] ytd-shorts #subscribe-button yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal {
+    background-color: var(--sub-black-bg-btn) i;
 }
 
-html:not([dark]) ytd-shorts #subscribe-button yt-button-shape button[aria-label^="Unsubscribe"], html:not([dark]) ytd-shorts #subscribe-button yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal {
-    background-color: var(--sub-white--text-btn) !important;
+html:not([dark]) ytd-shorts #subscribe-button yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal {
+    background-color: var(--sub-white--text-btn) i;
 }
