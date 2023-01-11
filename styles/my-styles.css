@@ -13,14 +13,14 @@ ytd-subscribe-button-renderer yt-button-shape button,
 ytd-subscribe-button-renderer yt-button-shape a[aria-label="Subscribe"] {
     /* InPrivate */
     color: var(--yt-spec-static-brand-white) !important;
-    background-color: var(--yt-spec-brand-button-background) important;
+    background-color: var(--yt-spec-brand-button-background) !important;
 }
 
 #subscribe yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal,
 #subscribe-button yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal,
 ytd-subscribe-button-renderer yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal {
-    color: var(--yt-spec-text-secondary) important;
-    background-color: var(--yt-spec-badge-chip-background) important;
+    color: var(--yt-spec-text-secondary) !important;
+    background-color: var(--yt-spec-badge-chip-background) !important;
 }
 
 /* Subscribed button on channels*/
@@ -169,15 +169,15 @@ ytd-subscribe-button-renderer yt-button-shape button.yt-spec-button-shape-next.y
 #channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Tilaa"],
 [page-subtype="channels"] #subscribe yt-button-shape button[aria-label^="Subskrybuj kanał"],
 #channel.ytd-grid-channel-renderer #subscribe yt-button-shape button[aria-label^="Subskrybuj kanał"] {
-    color: var(--yt-spec-static-brand-white) important;
-    background-color: var(--yt-spec-brand-button-background) important;
+    color: var(--yt-spec-static-brand-white) !important;
+    background-color: var(--yt-spec-brand-button-background) !important;
 }
 
 /* Shorts Unsubscribe button */
 html[dark] ytd-shorts #subscribe-button yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal {
-    background-color: var(--sub-black-bg-btn) important;
+    background-color: var(--sub-black-bg-btn) !important;
 }
 
 html:not([dark]) ytd-shorts #subscribe-button yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal {
-    background-color: var(--sub-white--text-btn) important;
+    background-color: var(--sub-white--text-btn) !important;
 }
